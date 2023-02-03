@@ -33,3 +33,5 @@ jobs:
             build s3://fe-119-qwerty00ui88-s3 \
             --delete
         working-directory: ./my-agora-states-client
+
+        
