@@ -13,7 +13,7 @@ jobs:
         run: npm install
         working-directory: ./my-agora-states-client
       - name: Build
-        run: npm build
+        run: npm run build
         working-directory: ./my-agora-states-client
       - name: SHOW AWS CLI VERSION
         env:
@@ -34,4 +34,3 @@ jobs:
             --delete
         working-directory: ./my-agora-states-client
 
-        
